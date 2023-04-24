@@ -124,8 +124,10 @@ button:hover {
   }
 
     nav, form {
+
     font-weight: bold;
     text-align: center;
+    background-color: lightgray;
   }
 
   ul li {
