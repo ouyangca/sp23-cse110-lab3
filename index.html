@@ -2,10 +2,22 @@
 <style>
   a {
   color: green; /* Set the color of all links to green */
+  
 }
+  /* Underline a link when hovered over */
+  a:hover {
+    text-decoration: underline;
+  }
+
+    /* Change the font color of a link when active */
+    a:active {
+    color: red;
+  }
 </style>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thanksgiving Plan Brainstorm</title>
@@ -48,6 +60,15 @@
           </ol>
           <br>
           <a href="https://www.delish.com/holiday-recipes/thanksgiving/g3023/traditional-thanksgiving-menu/">Recipe Ideas</a>
+
+          <div class="grid-container">
+            <div class="grid-item"><p>Bread</p></div>
+            <div class="grid-item"><p>Soup</p></div>
+            <div class="grid-item"><p>Salad</p></div>
+            <div class="grid-item"><p>Turkey</p></div>
+            <div class="grid-item"><p>Mashed Potatoes</p></div>
+          </div>
+        
         <div id="menu">
             
         </div>
@@ -116,15 +137,24 @@
             </div>
         <hr>
     <span></span><p>Other details to be determined.</p>
-    <h2>Meeting Video</h2>
-    <video width="400" controls>
-        <source src="meetingvideo.mp4" type="video/mp4">
-      </video>
 
-    <h2>Meeting Audio</h2>
-    <audio controls>
-        <source src="meetingaudio.wav" type="audio/wav">
-      </audio>
+
+    <div class="media-container">
+      <div class="media-item">  
+        <h2>Meeting Video</h2>
+        <video width="400" controls>
+            <source src="meetingvideo.mp4" type="video/mp4">
+          </video></div>
+      <div class="media-item"><h2>Meeting Audio</h2>
+        <audio controls>
+            <source src="meetingaudio.wav" type="audio/wav">
+          </audio></div>
+      <div class="media-item"><p>Media from Jessie Ouyang</p></div>
+    </div>
+    
+   
+
+    
     
     
     </main>
