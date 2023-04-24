@@ -78,6 +78,7 @@ button:hover {
     background-color: blue;
   }
 
+  /* help alignment */
   .filler {
     width: 600px;
     height: 600px;
@@ -125,6 +126,7 @@ button:hover {
     color: red;
     text-decoration: none;
   }
+
 
     nav, form {
         border-style: solid;
